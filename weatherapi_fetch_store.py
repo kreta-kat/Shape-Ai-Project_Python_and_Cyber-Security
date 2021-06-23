@@ -38,3 +38,4 @@ print ("-----------------------------------------------------------")
 print ("-------------Opening 'Datafile.txt'----------")
 with open("datafile.txt", "r" ) as h:
     print(h.read())
+    h.close()
